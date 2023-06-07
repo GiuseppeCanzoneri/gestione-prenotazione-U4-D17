@@ -1,6 +1,7 @@
-package com.example.entities;
+package com.example.demo.entities;
 
 import java.time.LocalDate;
+import java.util.UUID;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,7 +13,7 @@ import lombok.Setter;
 
 public class Prenotazione {
 
-	private Long id;
+	private UUID id;
 
 	private User user;
 
